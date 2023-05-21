@@ -36,7 +36,7 @@ const Header =()=>
 </div>
         <div className="col-5">
             <div className="header-upper-links d-flex align-items-center justify-content-between">
-                 <div><Link style={{textDecoration: 'none'}} className="d-flex align-items-center gap-10 text-white">
+                 <div><Link to="/compare-product" style={{textDecoration: 'none'}} className="d-flex align-items-center gap-10 text-white">
                 <img src="images/compare.png"alt="compare"/>
                 <p className="mb-0"> compare<br/> products</p>
                 </Link> 

@@ -455,3 +455,35 @@ left:10%;
 .contact-iiner-wrapper address, .contact-iiner-wrapper a, .contact-iiner-wrapper p{
   color: var(--color-232f3e);
 }
+.compare-product-card{
+  padding: 20px 15px;
+  background-color: white;
+  border-radius: 10px;
+
+}
+.compare-product-card .cross{
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  padding: 3px;
+  cursor: pointer;
+}
+.compare-product-details h5.title{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 500;
+  color: var(--color-lclclb);
+
+}
+.compare-product-details h6.ptice{
+  font-size: 15px;
+  line-height: 22px;
+  font-weight: 400;
+}
+.compare-product-card .product-detail{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0px;
+  border-top: 1px solid rgba(0,0,0,0.1);
+}
