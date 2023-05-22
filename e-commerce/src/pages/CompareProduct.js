@@ -15,19 +15,19 @@ const  CompareProduct = ()=>
                     <div className="compare-product-card position-relative">
                         <img src="images/cross.png"alt=""className="position-absolute cross img-fluid "/>
                         <div className="product-card-image"> 
-                        <img src="images/cementdumb2.jpg"alt=""/>
+                        <img src="images/paint1.jpg"alt=""/>
                         </div>
                         <div className="compare-product-details">
-                            <h5 className="title"> Generic Construction Vehicle, Trucks Pull Back 1/50 1:50 Cement Mixer Truck</h5>
-                            <h6 className="price mb-3 mt-3"> Ksh 1,500</h6>
+                            <h5 className="title"> Crown Polyurethane Clear Varnish - 4 Litres - Interior - Paint</h5>
+                            <h6 className="price mb-3 mt-3"> Ksh 3,500</h6>
                             <div>
                                 <div className="product-detail">
                                     <h5>Brand:</h5>
-                                    <p>Generic</p>
+                                    <p>Crown</p>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Type:</h5>
-                                    <p>Vehicle</p>
+                                    <p>Paints</p>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Availability:</h5>
@@ -53,10 +53,10 @@ const  CompareProduct = ()=>
                     <div className="compare-product-card position-relative">
                         <img src="images/cross.png"alt=""className="position-absolute cross img-fluid "/>
                         <div className="product-card-image"> 
-                        <img src="images/cementdumb2.jpg"alt=""/>
+                        <img src="images/can.jpg"alt=""/>
                         </div>
                         <div className="compare-product-details">
-                            <h5 className="title"> Generic Construction Vehicle, Trucks Pull Back 1/50 1:50 Cement Mixer Truck</h5>
+                            <h5 className="title"> Generic  hard Metal Watering Can 9 Litres</h5>
                             <h6 className="price mb-3 mt-3"> Ksh 1,500</h6>
                             <div>
                                 <div className="product-detail">
@@ -65,7 +65,7 @@ const  CompareProduct = ()=>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Type:</h5>
-                                    <p>Vehicle</p>
+                                    <p>Watering can</p>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Availability:</h5>
@@ -91,19 +91,19 @@ const  CompareProduct = ()=>
                     <div className="compare-product-card position-relative">
                         <img src="images/cross.png"alt=""className="position-absolute cross img-fluid "/>
                         <div className="product-card-image"> 
-                        <img src="images/cementdumb2.jpg"alt=""/>
+                        <img src="images/screw.jpg"alt=""/>
                         </div>
                         <div className="compare-product-details">
-                            <h5 className="title"> Generic Construction Vehicle, Trucks Pull Back 1/50 1:50 Cement Mixer Truck</h5>
-                            <h6 className="price mb-3 mt-3"> Ksh 1,500</h6>
+                            <h5 className="title">Universal 31 In 1 Precision Magnetic Mini Screwdriver Set</h5>
+                            <h6 className="price mb-3 mt-3"> Ksh 600</h6>
                             <div>
                                 <div className="product-detail">
                                     <h5>Brand:</h5>
-                                    <p>Generic</p>
+                                    <p>Universal</p>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Type:</h5>
-                                    <p>Vehicle</p>
+                                    <p>Set</p>
                                 </div>
                                 <div className="product-detail">
                                     <h5>Availability:</h5>
@@ -129,11 +129,11 @@ const  CompareProduct = ()=>
                     <div className="compare-product-card position-relative">
                         <img src="images/cross.png"alt=""className="position-absolute cross img-fluid "/>
                         <div className="product-card-image"> 
-                        <img src="images/cementdumb2.jpg"alt=""/>
+                        <img src="images/gloves.jpg"alt=""/>
                         </div>
                         <div className="compare-product-details">
-                            <h5 className="title"> Generic Construction Vehicle, Trucks Pull Back 1/50 1:50 Cement Mixer Truck</h5>
-                            <h6 className="price mb-3 mt-3"> Ksh 1,500</h6>
+                            <h5 className="title"> Waterproof Thorn Resistant Anti Skid Outdoor Gardening Protective Gloves</h5>
+                            <h6 className="price mb-3 mt-3"> Ksh 500</h6>
                             <div>
                                 <div className="product-detail">
                                     <h5>Brand:</h5>

@@ -182,13 +182,13 @@ const OurStore = ()=>{
                         <div className="d-flex align-items-center gap-10">
 <p className="totalproducts mb-0">53 Products</p>
 <div className="d-flex gap-10 align-items-center grid">
-    <img onClick={()=> {setGrid(12);
-    }} src="images/square.png"className="d-block img-fluid" alt="grid"/>
-    <img onClick={()=> {setGrid(6);
-    }} src="images/menu1.png"className="d-block img-fluid" alt="grid"/>
-    <img onClick={()=> {setGrid(4);
-    }} src="images/menu.png"className="d-block img-fluid" alt="grid"/>
     <img onClick={()=> {setGrid(3);
+    }} src="images/square.png"className="d-block img-fluid" alt="grid"/>
+    <img onClick={()=> {setGrid(4);
+    }} src="images/menu1.png"className="d-block img-fluid" alt="grid"/>
+    <img onClick={()=> {setGrid(6);
+    }} src="images/menu.png"className="d-block img-fluid" alt="grid"/>
+    <img onClick={()=> {setGrid(12);
     }} src="images/menu.png"className="d-block img-fluid" alt="grid"/>
 </div>
                         </div>

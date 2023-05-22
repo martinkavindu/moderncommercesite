@@ -267,6 +267,9 @@ const Home=()=>{
         <section className="marque-wrapper home-wrapper-2 py-5">
             <div className="container-xxl">
                 <div className="row">
+                <div className="col-12">
+                        <h4 className="section-heading"> Our Top Brands</h4 >
+                    </div>
                     <div className="col-12">
                         <div className="marquee-inner-wrapper card-wrapper">
                             <Marquee className=" d-flex">
