@@ -465,21 +465,21 @@ left:10%;
   border-radius: 10px;
 
 }
-.compare-product-card .cross{
+.compare-product-card .cross, .wishlist-card .cross{
   top: 10px;
   right: 10px;
   width: 30px;
   padding: 3px;
   cursor: pointer;
 }
-.compare-product-details h5.title{
+.compare-product-details h5.title, .wishlist-card h5.title{
   font-size: 15px;
   line-height: 22px;
   font-weight: 500;
   color: var(--color-lclclb);
 
 }
-.compare-product-details h6.ptice{
+.compare-product-details h6.price, .wishlist-card h6.price{
   font-size: 15px;
   line-height: 22px;
   font-weight: 400;
@@ -490,4 +490,34 @@ left:10%;
   align-items: center;
   padding: 10px 0px;
   border-top: 1px solid rgba(0,0,0,0.1);
+}
+.auth-card{
+  padding: 20px;
+  background-color: white;
+  width: 500px;
+margin: 30px auto;
+border-radius: 10px;
+}
+.auth-card h3{
+  font-size: 19px;
+  font-weight: 500;
+  color: var(--color-777777);
+}
+.auth-card .form-control{
+  height: 50px;
+  background-color: var(--color-f5f5f7);
+  color: var(--color-777777);
+  font-size: 14px;
+  border-radius: 10px;
+  border-color: transparent;
+}
+.auth-card a{
+  font-size: 14px;
+  font-weight: 400;
+  text-decoration: none;
+  color: var(--color-lclclb);
+}
+.auth-card .signup{
+  background-color: var(--color-febd69);
+  color: var(--color-131921);
 }

@@ -41,11 +41,11 @@ const Header =()=>
                 <p className="mb-0"> compare<br/> products</p>
                 </Link> 
                 </div>
-                <div> <Link style={{textDecoration: 'none'}} className="d-flex align-items-center gap-10 text-white"><img src="images/favorite.png"alt="favorite"/>
+                <div> < Link to="/wishlist" style={{textDecoration: 'none'}} className="d-flex align-items-center gap-10 text-white"><img src="images/favorite.png"alt="favorite"/>
                 <p className="mb-0"> Favourite <br/> wishlist</p>
                 </Link>
                 </div>
-               <div> <Link  style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white"> <img src="images/login.jpeg"alt="login"/>
+               <div> <Link to="/login" style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white"> <img src="images/login.jpeg"alt="login"/>
                <p className="mb-0"> Log in <br/> My account </p>
                </Link></div> 
                <div><Link style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white">
