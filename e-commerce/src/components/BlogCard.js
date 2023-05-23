@@ -14,7 +14,7 @@ const BlogCard = ()=>{
                     The kitchen used to be a back room where food was prepared and where dishes were cleaned.<br/>
                      Fast forward to the modern times, a kitchen is the central room which brings everyone together
                     </p>
-                    <Link to="" className="button"> Read more</Link>
+                    <Link to="/blog/:id" className="button"> Read more</Link>
                 </div>
             </div>
        
