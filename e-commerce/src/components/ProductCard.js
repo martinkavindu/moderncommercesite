@@ -17,7 +17,9 @@ const ProductCard = (props)=>{
        </Link>
 
 <div className="product-image">
+   <Link to ="/product/:id">
    <img src="images/blender.jpg" alt="pump"/>
+   </Link>
 </div>
 <div className="product-details">
    <h6 className="brand"> Blenders</h6 >

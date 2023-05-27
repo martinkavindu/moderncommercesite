@@ -15,6 +15,7 @@ import Forgotpassword from './pages/Forgotpassword';
 import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
 import SingleBlog from './pages/SingleBlog';
+import SingleProduct from './pages/SingleProduct';
 
 function App() {
   return (
@@ -36,6 +37,7 @@ function App() {
       <Route path='forgotpassword'element={<Forgotpassword/>}/>
       <Route path='signup'element={<Signup/>}/>
       <Route path='resetpassword'element={<Resetpassword/>}/>
+      <Route path='product/:id'element={<SingleProduct/>}/>
        <Route path='store' element={
       <OurStore/>
       }/>
