@@ -48,7 +48,7 @@ const Header =()=>
                <div> <Link to="/login" style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white"> <img src="images/login.jpeg"alt="login"/>
                <p className="mb-0"> Log in <br/> My account </p>
                </Link></div> 
-               <div><Link style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white">
+               <div><Link to="/cart" style={{textDecoration: 'none'}}className="d-flex align-items-center gap-10 text-white">
                <img src=" images/cart.png"alt="cart"/>
             <div className="d-flex flex-column gap-10">
                 <span className="badge bg-white text-dark">0</span>

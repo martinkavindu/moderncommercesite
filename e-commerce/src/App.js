@@ -16,6 +16,8 @@ import Signup from './pages/Signup';
 import Resetpassword from './pages/Resetpassword';
 import SingleBlog from './pages/SingleBlog';
 import SingleProduct from './pages/SingleProduct';
+import Cart from './pages/Cart';
+import Checkout from './pages/Checkout';
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
       <Contact/>
       }/>
       <Route path='blogs'element={<Blog/>}/>
+      <Route path='cart'element={<Cart/>}/>
+      <Route path='checkout'element={<Checkout/>}/>
       <Route path='blog/:id'element={<SingleBlog/>}/>
       <Route path='compare-product'element={<CompareProduct/>}/>
       <Route path='wishlist'element={<Wishlist/>}/>
